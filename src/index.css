@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link{
+    @apply text-dusk-white text-base font-poppins font-medium leading-7 capitalize hover:text-white 
+  }
+  .commonBtn{
+    @apply text-white text-base font-poppins font-medium leading-7 capitalize px-12 py-4 rounded-half border-btn-border border-2 hover:text-black hover:bg-yellow 
+  }
+  .bannerHeading{
+    @apply max-w-bannerHeadingWidth text-white font-poppins text-bannerFont font-semibold leading-extra-loose capitalize
+  }
+  .paragraph{
+    @apply text-white text-base font-poppins font-normal leading-7 opacity-70
+  }
+  .subHeading {
+    @apply text-dark-blue text-5xl font-poppins font-semibold leading-64px
+  }
+  .miniHeading {
+    @apply text-dark-blue text-miniHeading font-poppins font-medium leading-48px capitalize mt-4
+  }
+  .getLink {
+    @apply text-royal-blue text-lg font-poppins font-medium leading-8 flex items-center gap-x-4
+  }
+  .view {
+    @apply text-yellow text-base font-poppins font-medium leading-7 capitalize flex items-center gap-x-4
+  }
+  .img {
+    @apply w-full h-full object-cover
+  }
+  .cardHeading {
+    @apply text-white text-2xl font-poppins font-semibold leading-9 capitalize
+  }
+  .smallHeading {
+    @apply text-base text-dark-blue font-poppins font-medium capitalize leading-7
+  }
+  .icon {
+    @apply text-3xl text-royal-blue 
+  }
+}
