@@ -5,8 +5,8 @@ import bannerImg from '../../assets/banner-img.png'
 import Image from '../utilities/Image';
 
 
-import { Link } from 'react-router-dom'
 import { FaArrowRightLong } from "react-icons/fa6";
+import HyperLink from '../utilities/HyperLink';
 
 const Banner = () => {
   return (
@@ -15,11 +15,14 @@ const Banner = () => {
             <div className="max-w-container mx-auto">
                 <div className='flex justify-between items-center'>
                     <div>
-                        <HeadingOne className='bannerHeading' text='Building stellar websites for early startups'/>
+                        <HeadingOne className='bannerHeading max-w-bannerHeadingWidth' text='Building stellar websites for early startups'/>
                         <Paragraph classname='paragraph mt-6 max-w-562px' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'/>
                         <div className='flex mt-12 gap-x-4'>
-                            <Link className='commonBtn px-14'>view our work</Link>
-                            <Link className='commonBtn px-14 flex items-center gap-x-4'>view pricing <FaArrowRightLong /></Link>
+                            <HyperLink href='#' className='commonBtn px-14' text='view our work'/>
+                            <div className='commonBtn px-14 flex items-center gap-x-4'>
+                                <HyperLink href='#' text='view pricing' />
+                                <FaArrowRightLong />
+                            </div>
                         </div>
                     </div>
                     <div className='w-bannerImgWidth h-bannerImgHeight overflow-hidden'>

@@ -11,7 +11,7 @@ const PointerOne = () => {
             <picture>
                 <img src={pointer1} alt="not found" />
             </picture>
-            <HeadingFive classname='miniHeading' text='Strategy'/>
+            <HeadingFive classname='miniHeading mt-4' text='Strategy'/>
             <Paragraph classname='paragraph text-dark-blue max-w-303px mt-2' text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .'/>
         </div>
     </>

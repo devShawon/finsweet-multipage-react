@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
+import HyperLink from '../utilities/HyperLink'
 
 const Navbar = () => {
   return (
@@ -15,27 +16,27 @@ const Navbar = () => {
               <div>
                 <ul className='flex gap-x-8 items-center'>
                   <li>
-                    <Link className='nav-link'>home</Link>
+                    <HyperLink href='#' className='nav-link hover:text-white' text='home' />
                   </li>
                   <li>
-                    <Link className='nav-link'>about us</Link>
+                    <HyperLink href='#' className='nav-link hover:text-white' text='about us' />
                   </li>
                   <li>
-                    <Link className='nav-link'>feature</Link>
+                    <HyperLink href='#' className='nav-link hover:text-white' text='feature' />
                   </li>
                   <li>
-                    <Link className='nav-link'>pricing</Link>
+                    <HyperLink href='#' className='nav-link hover:text-white' text='pricing' />
                   </li>
                   <li>
-                    <Link className='nav-link uppercase'>faq</Link>
+                    <HyperLink href='#' className='nav-link hover:text-white uppercase' text='faq' />
                   </li>
                   <li>
-                    <Link className='nav-link'>blog</Link>
+                    <HyperLink href='#' className='nav-link hover:text-white' text='blog' />
                   </li>
                 </ul>
               </div>
-              <div>
-                <Link className='commonBtn'>contact us</Link>
+            <div>
+              <HyperLink href='#' className='commonBtn' text='contact us' />
               </div>
             </div>
           </div>

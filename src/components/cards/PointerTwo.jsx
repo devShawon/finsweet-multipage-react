@@ -10,7 +10,7 @@ const PointerTwo = () => {
             <picture>
                 <img src={pointer2} alt="not found" />
             </picture>
-            <HeadingFive classname='miniHeading' text='Wireframing'/>
+            <HeadingFive classname='miniHeading mt-4' text='Wireframing'/>
             <Paragraph classname='paragraph text-dark-blue max-w-303px mt-2' text='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .'/>
         </div>
     </>

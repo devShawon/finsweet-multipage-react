@@ -7,6 +7,7 @@ import PointerOne from '../cards/PointerOne';
 import PointerTwo from '../cards/PointerTwo';
 import PointerThree from '../cards/PointerThree';
 import PointerFour from '../cards/PointerFour';
+import HyperLink from '../utilities/HyperLink';
 
 const Work = () => {
   return (
@@ -16,7 +17,10 @@ const Work = () => {
                 <div>
                     <HeadingTwo classname='subHeading' text='How we work'/>
                     <Paragraph classname='paragraph my-4 w-405px text-dark-blue' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.' />
-                    <Link className='getLink'>Get in touch with us<FaArrowRightLong /></Link>
+                    <div className='getLink flex items-center gap-x-4'>
+                        <HyperLink text='Get in touch with us' />
+                        <FaArrowRightLong />
+                    </div>
                 </div>
                 <div className='flex flex-wrap gap-y-12'>
                     <PointerOne />

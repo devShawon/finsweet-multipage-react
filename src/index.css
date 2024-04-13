@@ -4,13 +4,13 @@
 
 @layer components {
   .nav-link{
-    @apply text-dusk-white text-base font-poppins font-medium leading-7 capitalize hover:text-white 
+    @apply text-dusk-white text-base font-poppins font-medium leading-7 capitalize
   }
   .commonBtn{
-    @apply text-white text-base font-poppins font-medium leading-7 capitalize px-12 py-4 rounded-half border-btn-border border-2 hover:text-black hover:bg-yellow 
+    @apply text-white text-base font-poppins font-medium leading-7 capitalize px-12 py-4 rounded-half border-btn-border border-2 hover:text-black hover:bg-yellow inline-block
   }
   .bannerHeading{
-    @apply max-w-bannerHeadingWidth text-white font-poppins text-bannerFont font-semibold leading-extra-loose capitalize
+    @apply  text-white font-poppins text-large font-semibold leading-extra-loose capitalize
   }
   .paragraph{
     @apply text-white text-base font-poppins font-normal leading-7 opacity-70
@@ -19,13 +19,13 @@
     @apply text-dark-blue text-5xl font-poppins font-semibold leading-64px
   }
   .miniHeading {
-    @apply text-dark-blue text-miniHeading font-poppins font-medium leading-48px capitalize mt-4
+    @apply text-dark-blue text-miniHeading font-poppins font-medium leading-48px capitalize
   }
   .getLink {
-    @apply text-royal-blue text-lg font-poppins font-medium leading-8 flex items-center gap-x-4
+    @apply text-royal-blue text-lg font-poppins font-medium leading-8 flex items-center gap-x-4 cursor-pointer
   }
   .view {
-    @apply text-yellow text-base font-poppins font-medium leading-7 capitalize flex items-center gap-x-4
+    @apply text-yellow text-base font-poppins font-medium leading-7 capitalize flex items-center gap-x-4 cursor-pointer
   }
   .img {
     @apply w-full h-full object-cover
@@ -38,5 +38,23 @@
   }
   .icon {
     @apply text-3xl text-royal-blue 
+  }
+  .midHeading {
+    @apply text-midHeading text-dark-blue font-poppins font-semibold leading-56px
+  }
+  .angleIcon {
+    @apply text-dark-blue text-5xl bg-white p-3 rounded-full cursor-pointer opacity-70 hover:bg-royal-blue hover:text-white
+  }
+  .number {
+    @apply text-royal-blue text-2xl font-poppins font-medium leading-9
+  }
+  .accordion {
+    @apply flex items-start justify-between relative after:absolute after:-top-8 after:left-0 after:w-full after:h-2px after:bg-line
+  }
+  .input {
+    @apply w-full bg-transparent text-white py-18px pl-8 border-soft-white border-1.5 rounded-lg placeholder:capitalize placeholder:text-soft-gray
+  }
+  .buildBtn {
+    @apply w-full text-center text-black text-base bg-yellow font-manrope font-medium leading-7 py-4 rounded-half border-transparent hover:border-btn-border border-2 hover:text-white hover:bg-transparent inline-block mt-10 
   }
 }
