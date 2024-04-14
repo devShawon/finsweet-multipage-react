@@ -1,6 +1,5 @@
 import React from 'react'
-import logo from '../../assets/logo.png'
-import { Link } from 'react-router-dom'
+import logo from '../../assets/home/logo.png'
 import HyperLink from '../utilities/HyperLink'
 
 const Navbar = () => {
@@ -16,10 +15,10 @@ const Navbar = () => {
               <div>
                 <ul className='flex gap-x-8 items-center'>
                   <li>
-                    <HyperLink href='#' className='nav-link hover:text-white' text='home' />
+                    <HyperLink href='/' className='nav-link hover:text-white' text='home' />
                   </li>
                   <li>
-                    <HyperLink href='#' className='nav-link hover:text-white' text='about us' />
+                    <HyperLink href='/about us' className='nav-link hover:text-white' text='about us' />
                   </li>
                   <li>
                     <HyperLink href='#' className='nav-link hover:text-white' text='feature' />

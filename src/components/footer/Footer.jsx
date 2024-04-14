@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from '../utilities/Image'
 
-import logo from '../../assets/logo.png'
+import logo from '../../assets/home/logo.png'
 import Paragraph from '../utilities/Paragraph'
 import HeadingFive from '../utilities/HeadingFive'
 import Span from '../utilities/Span'
@@ -43,10 +43,10 @@ const Footer = () => {
                         <HeadingTwo classname='subHeading text-white capitalize' text='lets talk' />
                         <Paragraph classname='paragraph opacity-80 mt-14px' text={text} />
                         <div className='flex items-center gap-x-26 mt-7 text-white text-3xl'>
-                            <FaFacebook />
-                            <FaTwitter />
-                            <FaInstagram />
-                            <FaLinkedin />
+                            <HyperLink href='#' text={ <FaFacebook />} />
+                            <HyperLink href='#' text={ <FaTwitter />} />
+                            <HyperLink href='#' text={ <FaInstagram />} />
+                            <HyperLink href='#' text={ <FaLinkedin />} />
                         </div>
                     </div>
                 </div>

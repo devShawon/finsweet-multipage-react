@@ -1,9 +1,9 @@
 import React from 'react'
 import HeadingTwo from '../utilities/HeadingTwo'
 import HeadingSix from '../utilities/HeadingSix'
-import img1 from '../../assets/project-img1.png'
-import img2 from '../../assets/project-img2.png'
-import img3 from '../../assets/project-img3.png'
+import img2 from '../../assets/home/project-img2.png'
+import img3 from '../../assets/home/project-img3.png'
+import img1 from '../../assets/home/project-img1.png'
 
 import { FaArrowRightLong } from "react-icons/fa6";
 import Paragraph from '../utilities/Paragraph'

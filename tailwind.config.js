@@ -19,7 +19,8 @@ export default {
         'btn-border': '#F4F6FC33',
         'yellow': '#FCD980',
         'line': '#ECECF1',
-        'overlay': 'rgba(28, 30, 83, 0.50)'
+        'overlay': 'rgba(28, 30, 83, 0.50)',
+        'light': '#F4F5F5',
       },
       maxWidth: {
         'container': '1280px',
@@ -44,6 +45,10 @@ export default {
         '624px': '624px',
         '399px': '399px',
         '517px': '517px',
+        '595px': '595px',
+        '484px': '484px',
+        '547px': '547px',
+        '515px': '515px',
       },
       height: {
         'bannerImgHeight': '360px',
@@ -52,6 +57,8 @@ export default {
         '285px': '285px',
         '52px': '52px',
         '2px': '2px',
+        '336px': '336px',
+        '340px': '340px',
 
       },
       fontFamily: {
@@ -65,7 +72,7 @@ export default {
       },
       backgroundImage: {
         'gradient': 'linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%)',
-        'buildImg': 'url(./src/assets/build-img.png)',
+        'buildImg': 'url(./src/assets/home/build-img.png)',
       },
       borderRadius: {
         'half': '41px',
@@ -83,11 +90,14 @@ export default {
         '261px': '261px',
         '18px': '18px',
         '37px': '37px',
+        '80px': '80px',
+        '112px': '112px',
       },
       margin: {
         '22px': '22px',
         '86px': '86px',
         '14px': '14px',
+        '31px': '31px',
       },
       lineHeight: {
         'extra-loose': '74px',
@@ -100,6 +110,7 @@ export default {
         '110': '110px',
         '29': '29px',
         '26': '26px',
+        '61': '61px',
       },
       inset: {
         '396px': '396px',

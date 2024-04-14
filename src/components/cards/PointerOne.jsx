@@ -1,5 +1,5 @@
 import React from 'react'
-import pointer1 from '../../assets/pointer-1.png'
+import pointer1 from '../../assets/home/pointer-1.png'
 import HeadingFive from '../utilities/HeadingFive'
 import Paragraph from '../utilities/Paragraph'
 

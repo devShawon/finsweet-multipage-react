@@ -1,7 +1,7 @@
 import React from 'react'
 import HeadingOne from '../utilities/HeadingOne'
 import Paragraph from '../utilities/Paragraph'
-import bannerImg from '../../assets/banner-img.png'
+import bannerImg from '../../assets/home/banner-img.png'
 import Image from '../utilities/Image';
 
 

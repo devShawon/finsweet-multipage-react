@@ -1,7 +1,6 @@
 import React from 'react'
 import HeadingTwo from '../utilities/HeadingTwo'
 import Paragraph from '../utilities/Paragraph'
-import { Link } from 'react-router-dom'
 import { FaArrowRightLong } from "react-icons/fa6";
 import PointerOne from '../cards/PointerOne';
 import PointerTwo from '../cards/PointerTwo';

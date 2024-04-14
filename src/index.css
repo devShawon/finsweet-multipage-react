@@ -57,4 +57,7 @@
   .buildBtn {
     @apply w-full text-center text-black text-base bg-yellow font-manrope font-medium leading-7 py-4 rounded-half border-transparent hover:border-btn-border border-2 hover:text-white hover:bg-transparent inline-block mt-10 
   }
+  .aboutMiniHeading {
+    @apply text-dark-blue text-base font-poppins font-medium leading-7
+  }
 }
