@@ -6,16 +6,16 @@ import {
 } from "react-router-dom";
 
 import RootLayout from "./components/layout/RootLayout";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 
 function App() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route element={<RootLayout/>}>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/about us" element={<About/>}/>
+          <Route path="/" element={<Home />}/>
+          <Route path="/about us" element={<About />}/>
       </Route>
     )
   );  

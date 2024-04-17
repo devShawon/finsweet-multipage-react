@@ -21,6 +21,7 @@ export default {
         'line': '#ECECF1',
         'overlay': 'rgba(28, 30, 83, 0.50)',
         'light': '#F4F5F5',
+        'accent': '#EEF4FA',
       },
       maxWidth: {
         'container': '1280px',
@@ -49,6 +50,10 @@ export default {
         '484px': '484px',
         '547px': '547px',
         '515px': '515px',
+        '224px': '224px',
+        '296px': '296px',
+        '272px': '272px',
+        '623px': '623px',
       },
       height: {
         'bannerImgHeight': '360px',
@@ -98,6 +103,8 @@ export default {
         '86px': '86px',
         '14px': '14px',
         '31px': '31px',
+        '54px': '54px',
+        '96px': '96px',
       },
       lineHeight: {
         'extra-loose': '74px',
@@ -111,6 +118,8 @@ export default {
         '29': '29px',
         '26': '26px',
         '61': '61px',
+        '55': '55px',
+        '140': '140px',
       },
       inset: {
         '396px': '396px',
