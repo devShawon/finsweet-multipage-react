@@ -7,7 +7,7 @@ import Image from '../../utilities/Image';
 
 
 import { FaArrowRightLong } from "react-icons/fa6";
-import HyperLink from '../../utilities/HyperLink';
+import Button from '../../utilities/Button';
 
 const Banner = () => {
   return (
@@ -23,9 +23,9 @@ const Banner = () => {
                         />
                         <Paragraph classname='paragraph mt-6 max-w-562px' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'/>
                         <div className='flex mt-12 gap-x-4'>
-                            <HyperLink href='#' className='commonBtn px-14' text='view our work'/>
+                            <Button href= '#' className= 'commonBtn px-14' text= 'view our work' />
                             <div className='commonBtn px-14 flex items-center gap-x-4'>
-                                <HyperLink href='#' text='view pricing' />
+                                <Button href= '#' text= 'view pricing' />
                                 <FaArrowRightLong />
                             </div>
                         </div>

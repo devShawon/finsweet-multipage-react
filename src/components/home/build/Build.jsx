@@ -22,7 +22,7 @@ const Build = () => {
                     <div className='px-96px pt-96px pb-261px relative z-1'>
                         <Heading 
                             Heading='h1'
-                            className='bannerHeading'
+                            className='bannerHeading w-464px'
                             text= 'Building stellar websites for early startups'
                         />
                         <Paragraph classname='paragraph text-gray mt-6' text={peraText} />

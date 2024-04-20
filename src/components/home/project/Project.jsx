@@ -1,17 +1,15 @@
 import React from 'react'
 
-import HeadingTwo from '../../utilities/HeadingTwo'
-import HeadingSix from '../../utilities/HeadingSix'
 import Paragraph from '../../utilities/Paragraph'
 import Image from '../../utilities/Image'
 import HyperLink from '../../utilities/HyperLink'
+import Heading from '../../utilities/Heading'
 
 import img2 from '../../../assets/home/project-img2.png'
 import img3 from '../../../assets/home/project-img3.png'
 import img1 from '../../../assets/home/project-img1.png'
 
 import { FaArrowRightLong } from "react-icons/fa6";
-import Heading from '../../utilities/Heading'
 
 const Project = () => {
   return (

@@ -28,36 +28,48 @@ const Product = () => {
                 text= 'Design that solves problems, one product at a time'
               />
                 <div className='mt-12 flex flex-wrap gap-x-8 gap-y-6'>
+                  <div className='bg-white'>
                     <CardClient
                       icon={<FaUsers />}
                       headingText='Uses Client First'
                       peraText='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '
                     />
+                  </div>
+                  <div className='bg-white'>
                     <CardClient
                       icon={<FaCheckCircle />}
                       headingText='Two Free Revision Round'
                       peraText='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '
                     />
+                  </div>
+                  <div className='bg-white'>
                     <CardClient
                       icon={<FaPencilRuler />}
                       headingText='Template Customization'
                       peraText='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '
                     />
+                  </div>
+                  <div className='bg-white'>
                     <CardClient
                       icon={<BiSolidMessageRounded />}
                       headingText='24/7 Support'
                       peraText='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '
                     />
+                  </div>
+                  <div className='bg-white'>
                     <CardClient
                       icon={<BsAlarmFill />}
                       headingText='Quick Delivery'
                       peraText='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '
                     />
+                  </div>
+                  <div className='bg-white'>
                     <CardClient
                       icon={<GiNotebook />}
                       headingText='Hands-on approach'
                       peraText='Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. '
                     />
+                  </div>
                 </div>
             </div>
         </section>

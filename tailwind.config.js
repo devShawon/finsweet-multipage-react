@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+import keepPreset from "keep-react/preset";
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "node_modules/keep-react/**/*.{js,jsx,ts,tsx}"
   ],
+  presets: [keepPreset],
   theme: {
     extend: {
       colors: {
@@ -22,6 +25,8 @@ export default {
         'overlay': 'rgba(28, 30, 83, 0.50)',
         'light': '#F4F5F5',
         'accent': '#EEF4FA',
+        'vista-green': '#97DAAD',
+        'dust': '#a8aab0',
       },
       maxWidth: {
         'container': '1280px',
@@ -43,7 +48,7 @@ export default {
         '52px': '52px',
         '464px': '464px',
         '656px': '656px',
-        '624px': '624px',
+        '600px': '600px',
         '399px': '399px',
         '517px': '517px',
         '595px': '595px',
@@ -54,6 +59,10 @@ export default {
         '296px': '296px',
         '272px': '272px',
         '623px': '623px',
+        '168px': '168px',
+        '406px': '406px',
+        '281px': '281px',
+        '254px': '254px',
       },
       height: {
         'bannerImgHeight': '360px',
@@ -64,7 +73,7 @@ export default {
         '2px': '2px',
         '336px': '336px',
         '340px': '340px',
-
+        '168px': '168px',
       },
       fontFamily: {
         'poppins': '"Poppins", sans-serif',
@@ -78,6 +87,8 @@ export default {
       backgroundImage: {
         'gradient': 'linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%)',
         'buildImg': 'url(./src/assets/home/build-img.png)',
+        'teamGradient': 'linear-gradient(348deg, #5239FA 17.97%, rgba(255, 255, 255, 0.00) 79.2%)',
+        'pricingCardBg': 'url(./src/assets/pricing/card-bg.png)',
       },
       borderRadius: {
         'half': '41px',
@@ -97,6 +108,9 @@ export default {
         '37px': '37px',
         '80px': '80px',
         '112px': '112px',
+        '44px': '44px',
+        '15px': '15px',
+        '51px': '51px',
       },
       margin: {
         '22px': '22px',
@@ -105,6 +119,7 @@ export default {
         '31px': '31px',
         '54px': '54px',
         '96px': '96px',
+        '30px': '30px',
       },
       lineHeight: {
         'extra-loose': '74px',
@@ -129,6 +144,7 @@ export default {
       },
       borderWidth: {
         '1.5': '1.5px',
+        '3': '3px',
       }
     },
   },

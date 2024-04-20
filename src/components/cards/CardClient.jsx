@@ -7,7 +7,7 @@ import Heading from '../utilities/Heading';
 const CardClient = ({icon, headingText, peraText}) => {
   return (
     <>
-        <div className='w-405px bg-white pt-58px pl-12 pb-12 pr-8'>
+        <div className='w-405px pt-58px pl-12 pb-12 pr-8'>
             <Span className='icon' text={icon} />
             <Heading 
               Heading={'h5'}

@@ -1,3 +1,4 @@
+@import "keep-react/css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -47,9 +48,6 @@
   }
   .number {
     @apply text-royal-blue text-2xl font-poppins font-medium leading-9
-  }
-  .accordion {
-    @apply flex items-start justify-between relative after:absolute after:-top-8 after:left-0 after:w-full after:h-2px after:bg-line
   }
   .input {
     @apply w-full bg-transparent text-white py-18px pl-8 border-soft-white border-1.5 rounded-lg placeholder:capitalize placeholder:text-soft-gray

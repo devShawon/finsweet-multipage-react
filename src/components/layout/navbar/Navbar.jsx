@@ -1,6 +1,8 @@
 import React from 'react'
+
 import logo from '../../../assets/home/logo.png'
-import HyperLink from '../../utilities/HyperLink'
+import { NavLink } from 'react-router-dom'
+import Button from '../../utilities/Button'
 
 const Navbar = () => {
   return (
@@ -15,28 +17,28 @@ const Navbar = () => {
               <div>
                 <ul className='flex gap-x-8 items-center'>
                   <li>
-                    <HyperLink href='/' className='nav-link hover:text-white' text='home' />
+                    <NavLink to='/' className= 'nav-link hover:text-white'>home</NavLink>
                   </li>
                   <li>
-                    <HyperLink href='/about us' className='nav-link hover:text-white' text='about us' />
+                    <NavLink to='/about us' className= 'nav-link hover:text-white'>about us</NavLink>
                   </li>
                   <li>
-                    <HyperLink href='#' className='nav-link hover:text-white' text='feature' />
+                    <NavLink to='/feature' className= 'nav-link hover:text-white'>feature</NavLink>
                   </li>
                   <li>
-                    <HyperLink href='#' className='nav-link hover:text-white' text='pricing' />
+                    <NavLink to='/pricing' className= 'nav-link hover:text-white'>pricing</NavLink>
                   </li>
                   <li>
-                    <HyperLink href='#' className='nav-link hover:text-white uppercase' text='faq' />
+                    <NavLink to='/' className= 'nav-link hover:text-white'>faq</NavLink>
                   </li>
                   <li>
-                    <HyperLink href='#' className='nav-link hover:text-white' text='blog' />
+                    <NavLink to='/blog' className= 'nav-link hover:text-white'>blog</NavLink>
                   </li>
                 </ul>
               </div>
             <div>
-              <HyperLink href='#' className='commonBtn' text='contact us' />
-              </div>
+              <Button href= '#' className= 'commonBtn' text= 'contact us' />
+            </div>
             </div>
           </div>
         </div>

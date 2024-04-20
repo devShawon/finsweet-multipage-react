@@ -13,7 +13,7 @@ const Pointer = ({src, alt, headingText, peraText}) => {
             <Heading 
               Heading={'h5'}
               className= 'miniHeading mt-4'
-              text={peraText}
+              text={headingText}
             />
             <Paragraph classname='paragraph text-dark-blue max-w-303px mt-2' text={peraText}/>
         </div>
