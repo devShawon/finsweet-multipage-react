@@ -40,6 +40,8 @@ export default {
         '630px': '630px',
         '624px': '624px',
         '468px': '468px',
+        '950px': '950px',
+        '831px': '831px',
       },
       width: {
         'bannerImgWidth': '638px',
@@ -81,6 +83,7 @@ export default {
         '168px': '168px',
         '410px': '410px',
         '398px': '398px',
+        '477px': '477px',
       },
       fontFamily: {
         'poppins': '"Poppins", sans-serif',
@@ -128,6 +131,7 @@ export default {
         '96px': '96px',
         '30px': '30px',
         '41px': '41px',
+        '128px': '128px',
       },
       lineHeight: {
         'extra-loose': '74px',
@@ -143,6 +147,7 @@ export default {
         '61': '61px',
         '55': '55px',
         '140': '140px',
+        '6': '6px',
       },
       inset: {
         '396px': '396px',

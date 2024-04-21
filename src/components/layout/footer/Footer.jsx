@@ -13,6 +13,7 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -59,22 +60,22 @@ const Footer = () => {
                     <HeadingFive classname='paragraph text-dark-blue font-medium opacity-100' text='Copyright 2022, Finsweet.com' />
                     <ul className='flex gap-x-8 items-center'>
                         <li>
-                            <HyperLink href='#' className='nav-link text-dark-blue' text='home' />
+                            <Link to='/' className='nav-link text-dark-blue'>home</Link>
                         </li>
                         <li>
-                            <HyperLink href='#' className='nav-link text-dark-blue' text='about us' />
+                        <Link to='/about us' className='nav-link text-dark-blue'>about us</Link>
                         </li>
                         <li>
-                            <HyperLink href='#' className='nav-link text-dark-blue' text='feature' />
+                            <Link to='/feature' className='nav-link text-dark-blue'>feature</Link>
                         </li>
                         <li>
-                            <HyperLink href='#' className='nav-link text-dark-blue' text='pricing' />
+                            <Link to='/pricing' className='nav-link text-dark-blue'>pricing</Link>
                         </li>
                         <li>
-                            <HyperLink href='#' className='nav-link text-dark-blue uppercase' text='faq' />
+                            <Link to='/' className='nav-link text-dark-blue'>FAQ</Link>
                         </li>
                         <li>
-                            <HyperLink href='#' className='nav-link text-dark-blue' text='blog' />
+                            <Link to='/blog' className='nav-link text-dark-blue'>blog</Link>
                         </li>
                     </ul>
                 </div>
