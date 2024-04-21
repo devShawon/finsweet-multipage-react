@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 import { LuMoveRight } from "react-icons/lu";
 
-const BlogCard = ({src, subHeadingtxt,headingTxt, peratxt}) => {
+const BlogCard = ({src, subHeadingtxt,headingTxt, peratxt,}) => {
   return (
     <div className='w-405px'>
         <div className='w-405px h-285px overflow-hidden'>
@@ -22,7 +22,7 @@ const BlogCard = ({src, subHeadingtxt,headingTxt, peratxt}) => {
             text={headingTxt}  
         />
         <Paragraph classname= 'paragraph text-dark-blue mb-6' text={peratxt} />
-        <Link className='paragraph text-dark-blue opacity-100 font-medium capitalize flex gap-x-3 items-center'>read more<LuMoveRight/></Link>
+        <Link to='/blog/read blog' className='paragraph text-dark-blue opacity-100 font-medium capitalize flex gap-x-3 items-center'>read more<LuMoveRight/></Link>
     </div>
   )
 }

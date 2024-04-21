@@ -42,6 +42,7 @@ export default {
         '468px': '468px',
         '950px': '950px',
         '831px': '831px',
+        '842px': '842px',
       },
       width: {
         'bannerImgWidth': '638px',
@@ -84,6 +85,7 @@ export default {
         '410px': '410px',
         '398px': '398px',
         '477px': '477px',
+        '310px': '310px',
       },
       fontFamily: {
         'poppins': '"Poppins", sans-serif',
@@ -93,6 +95,7 @@ export default {
         large: '54px',
         miniHeading: '32px',
         midHeading: '38px',
+        small: '8px',
       },
       backgroundImage: {
         'gradient': 'linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%)',
@@ -132,6 +135,8 @@ export default {
         '30px': '30px',
         '41px': '41px',
         '128px': '128px',
+        '40px': '40px',
+        '56px': '56px',
       },
       lineHeight: {
         'extra-loose': '74px',
