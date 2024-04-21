@@ -11,7 +11,7 @@
     @apply text-white text-base font-poppins font-medium leading-7 capitalize px-12 py-4 rounded-half border-btn-border border-2 hover:text-black hover:bg-yellow inline-block
   }
   .bannerHeading{
-    @apply  text-white font-poppins text-large font-semibold leading-extra-loose capitalize
+    @apply  text-white font-poppins text-large font-semibold leading-extra-loose
   }
   .paragraph{
     @apply text-white text-base font-poppins font-normal leading-7 opacity-70

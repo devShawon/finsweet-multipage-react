@@ -27,6 +27,9 @@ export default {
         'accent': '#EEF4FA',
         'vista-green': '#97DAAD',
         'dust': '#a8aab0',
+        'black': '#000',
+        'black-velvet': '#232536',
+        'soft-yellow': 'rgba(252, 217, 128, 0.10)',
       },
       maxWidth: {
         'container': '1280px',
@@ -36,6 +39,7 @@ export default {
         '303px': '303px',
         '630px': '630px',
         '624px': '624px',
+        '468px': '468px',
       },
       width: {
         'bannerImgWidth': '638px',
@@ -63,6 +67,7 @@ export default {
         '406px': '406px',
         '281px': '281px',
         '254px': '254px',
+        '575px': '575px',
       },
       height: {
         'bannerImgHeight': '360px',
@@ -74,6 +79,8 @@ export default {
         '336px': '336px',
         '340px': '340px',
         '168px': '168px',
+        '410px': '410px',
+        '398px': '398px',
       },
       fontFamily: {
         'poppins': '"Poppins", sans-serif',
@@ -120,6 +127,7 @@ export default {
         '54px': '54px',
         '96px': '96px',
         '30px': '30px',
+        '41px': '41px',
       },
       lineHeight: {
         'extra-loose': '74px',
@@ -145,6 +153,9 @@ export default {
       borderWidth: {
         '1.5': '1.5px',
         '3': '3px',
+      },
+      opacity: {
+        '87': '.87',
       }
     },
   },
