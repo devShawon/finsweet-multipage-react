@@ -12,6 +12,7 @@ import Pricing from "./pages/pricing/Pricing";
 import Feature from "./pages/feature/Feature";
 import Blog from "./pages/blog/Blog";
 import ReadBlog from "./pages/readBlog/ReadBlog";
+import Work from "./pages/work/Work";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/feature" element={<Feature />}/>
           <Route path="/blog" element={<Blog />}/>
           <Route path="/blog/read blog" element={<ReadBlog />} />
+          <Route path="/work/get work" element={<Work />} />
       </Route>
     )
   );  

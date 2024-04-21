@@ -58,4 +58,7 @@
   .aboutMiniHeading {
     @apply text-dark-blue text-base font-poppins font-medium leading-7
   }
+  .design{
+    @apply text-lg text-dark-blue font-poppins font-normal capitalize leading-8 hover:text-royal-blue opacity-70 hover:opacity-100
+  }
 }

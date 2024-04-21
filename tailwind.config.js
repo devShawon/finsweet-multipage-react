@@ -43,6 +43,9 @@ export default {
         '950px': '950px',
         '831px': '831px',
         '842px': '842px',
+        '504px': '504px',
+        '733px': '733px',
+        '730px': '730px',
       },
       width: {
         'bannerImgWidth': '638px',
@@ -86,6 +89,7 @@ export default {
         '398px': '398px',
         '477px': '477px',
         '310px': '310px',
+        '380px': '380px',
       },
       fontFamily: {
         'poppins': '"Poppins", sans-serif',
@@ -99,7 +103,7 @@ export default {
       },
       backgroundImage: {
         'gradient': 'linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%)',
-        'buildImg': 'url(./src/assets/home/build-img.png)',
+        'buildImg': 'url(../../src/assets/home/build-img.png)',
         'teamGradient': 'linear-gradient(348deg, #5239FA 17.97%, rgba(255, 255, 255, 0.00) 79.2%)',
         'pricingCardBg': 'url(./src/assets/pricing/card-bg.png)',
       },
@@ -124,6 +128,7 @@ export default {
         '44px': '44px',
         '15px': '15px',
         '51px': '51px',
+        '66px': '66px',
       },
       margin: {
         '22px': '22px',
@@ -153,6 +158,7 @@ export default {
         '55': '55px',
         '140': '140px',
         '6': '6px',
+        '27': '27px',
       },
       inset: {
         '396px': '396px',
