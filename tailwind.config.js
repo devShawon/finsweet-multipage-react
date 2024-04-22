@@ -129,6 +129,7 @@ export default {
         '15px': '15px',
         '51px': '51px',
         '66px': '66px',
+        '205px': '205px',
       },
       margin: {
         '22px': '22px',
