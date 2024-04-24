@@ -20,7 +20,7 @@ const Banner = () => {
                     />
                     <Paragraph classname='paragraph mt-6 max-w-562px' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'/>
                     <div className='flex mt-12 gap-x-4'>
-                        <Button href= '#' className= 'commonBtn px-12' text= 'view pricing' />
+                        <Button href= '/pricing' className= 'commonBtn px-12' text= 'view pricing' />
                     </div>
                 </div>
                 <div className='w-bannerImgWidth h-410px overflow-hidden'>
