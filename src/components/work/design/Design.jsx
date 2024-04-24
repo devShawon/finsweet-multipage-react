@@ -33,13 +33,13 @@ const Design = () => {
                         src={img1}
                         headingtxt= 'Template 1'
                         peratxt= 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
-                        lasttxt= 'view pricing'
+                        lasttxt= 'view portfolio'
                     />
                     <PortfolioCard 
                         src={img2}
                         headingtxt= 'Template 2'
                         peratxt= 'Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.'
-                        lasttxt= 'view pricing'
+                        lasttxt= 'view portfolio'
                     />
                 </div>
                 <div className='flex justify-between'>

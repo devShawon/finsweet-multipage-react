@@ -61,4 +61,13 @@
   .design{
     @apply text-lg text-dark-blue font-poppins font-normal capitalize leading-8 hover:text-royal-blue opacity-70 hover:opacity-100
   }
+  .keyword {
+    @apply text-dark-blue text-lg font-normal font-poppins leading-8 opacity-70 capitalize hover:text-royal-blue hover:opacity-100
+  }
+  .contact-txt {
+    @apply text-black text-lg font-poppins font-medium capitalize
+  }
+  .contact-input {
+    @apply w-438px py-18px px-8 bg-transparent text-lg border border-halka-black rounded-lg placeholder:text-base placeholder:capitalize
+  }
 }

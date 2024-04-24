@@ -8,6 +8,7 @@ import Image from '../../utilities/Image';
 
 import { FaArrowRightLong } from "react-icons/fa6";
 import Button from '../../utilities/Button';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -23,9 +24,10 @@ const Banner = () => {
                         />
                         <Paragraph classname='paragraph mt-6 max-w-562px' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'/>
                         <div className='flex mt-12 gap-x-4'>
-                            <Button href= '#' className= 'commonBtn px-14' text= 'view our work' />
+                            <Button href= '/work' className= 'commonBtn px-14' text= 'view our work' />
                             <div className='commonBtn px-14 flex items-center gap-x-4'>
-                                <Button href= '#' text= 'view pricing' />
+                                {/* <Link to='/banner/view pricing'>view pricing</Link> */}
+                                <Button href= '/pricing' text= 'view pricing' />
                                 <FaArrowRightLong />
                             </div>
                         </div>

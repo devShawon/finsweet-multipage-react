@@ -60,22 +60,10 @@ const Footer = () => {
                     <HeadingFive classname='paragraph text-dark-blue font-medium opacity-100' text='Copyright 2022, Finsweet.com' />
                     <ul className='flex gap-x-8 items-center'>
                         <li>
-                            <Link to='/' className='nav-link text-dark-blue'>home</Link>
+                            <Link to='/privacy-policy' className='nav-link text-dark-blue hover:text-royal-blue hover:underline'>privacy policy</Link>
                         </li>
                         <li>
-                        <Link to='/about us' className='nav-link text-dark-blue'>about us</Link>
-                        </li>
-                        <li>
-                            <Link to='/feature' className='nav-link text-dark-blue'>feature</Link>
-                        </li>
-                        <li>
-                            <Link to='/pricing' className='nav-link text-dark-blue'>pricing</Link>
-                        </li>
-                        <li>
-                            <Link to='/' className='nav-link text-dark-blue'>FAQ</Link>
-                        </li>
-                        <li>
-                            <Link to='/blog' className='nav-link text-dark-blue'>blog</Link>
+                        <Link to='/terms&condition' className='nav-link text-dark-blue hover:text-royal-blue hover:underline'>terms & condition</Link>
                         </li>
                     </ul>
                 </div>

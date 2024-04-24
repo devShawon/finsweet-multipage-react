@@ -13,6 +13,10 @@ import Feature from "./pages/feature/Feature";
 import Blog from "./pages/blog/Blog";
 import ReadBlog from "./pages/readBlog/ReadBlog";
 import Work from "./pages/work/Work";
+import Portfolio from "./pages/portfolio/Portfolio";
+import Contact from "./pages/contact/Contact";
+import Privacy from "./pages/privacy/Privacy";
+import Condition from "./pages/condition/Condition";
 
 function App() {
 
@@ -20,12 +24,16 @@ function App() {
     createRoutesFromElements(
       <Route element={<RootLayout/>}>
           <Route path="/" element={<Home />}/>
+          <Route path="/work" element={<Work />} />
+          <Route path="/work/read-case-study" element={<Portfolio />} />
           <Route path="/about us" element={<About />}/>
           <Route path="/pricing" element={<Pricing />}/>
           <Route path="/feature" element={<Feature />}/>
           <Route path="/blog" element={<Blog />}/>
           <Route path="/blog/read blog" element={<ReadBlog />} />
-          <Route path="/work/get work" element={<Work />} />
+          <Route path="/contact-us" element={<Contact/>} />
+          <Route path="/privacy-policy" element={<Privacy/>} />
+          <Route path="/terms&condition" element={<Condition/>} />
       </Route>
     )
   );  

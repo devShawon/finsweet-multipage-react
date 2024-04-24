@@ -155,7 +155,7 @@ const Plan = () => {
                     <Heading 
                         Heading={'h3'}
                         className= 'cardHeading text-dark-blue capitalize font-medium mt-5 group-hover:text-white'
-                        text= 'landing page'
+                        text= 'complex project'
                     />
                     <Paragraph classname='paragraph w-281px text-dark-blue mt-2 group-hover:text-white' text= 'When you’re ready to go beyond prototyping in Figma, ' />
                     <div className='mt-10 flex flex-col gap-y-5'>

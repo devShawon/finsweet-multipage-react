@@ -7,7 +7,6 @@ import HyperLink from '../../utilities/HyperLink';
 import pointer1 from '../../../assets/home/pointer-1.png'
 import Pointer from '../../cards/Pointer';
 import Heading from '../../utilities/Heading';
-import { Link } from 'react-router-dom';
 
 const Work = () => {
   return (
@@ -22,8 +21,8 @@ const Work = () => {
                     />
                     <Paragraph classname='paragraph my-4 w-405px text-dark-blue' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.' />
                     <div className='getLink flex items-center gap-x-4'>
-                        <Link to= '/work/get work'>Get in touch with us</Link>
-                        {/* <HyperLink text='Get in touch with us' /> */}
+                        {/* <Link to= '/work/get work'>Get in touch with us</Link> */}
+                        <HyperLink href='#' text='Get in touch with us' />
                         <FaArrowRightLong />
                     </div>
                 </div>
