@@ -51,10 +51,10 @@ const Footer = () => {
                     <div>
                         <Heading 
                             Heading={'h2'}
-                            classname='subHeading text-white capitalize'
-                            text='lets talk'
+                            className='subHeading text-white capitalize'
+                            text='lets talk!'
                         />
-                        <Paragraph classname='paragraph opacity-80 mt-14px' text={text} />
+                        <Paragraph classname='paragraph max-w-405px opacity-80 mt-14px' text={text} />
                         <div className='flex items-center gap-x-26 mt-7 text-white text-3xl'>
                             <HyperLink href='#' text={ <FaFacebook />} />
                             <HyperLink href='#' text={ <FaTwitter />} />

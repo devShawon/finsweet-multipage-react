@@ -25,7 +25,7 @@ const Product = () => {
                 className= 'subHeading max-w-630px text-center mx-auto mt-3'
                 text= 'Design that solves problems, one product at a time'
               />
-                <div className='mt-12 flex flex-wrap gap-x-8 gap-y-6'>
+                <div className='mt-12 flex flex-wrap gap-y-24 gap-x-8'>
                   <div className='bg-white'>
                     <CardClient
                       icon={<FaUsers />}
