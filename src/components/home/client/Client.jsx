@@ -1,10 +1,7 @@
 import React from 'react'
-import HeadingThree from '../../utilities/HeadingThree'
 import Paragraph from '../../utilities/Paragraph'
-import HeadingFive from '../../utilities/HeadingFive'
 import Image from '../../utilities/Image'
 import clientImg from '../../../assets/home/client-img.png'
-import HeadingSix from '../../utilities/HeadingSix'
 
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";

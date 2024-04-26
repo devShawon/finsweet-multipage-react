@@ -8,7 +8,6 @@ import Image from '../../utilities/Image';
 
 import { FaArrowRightLong } from "react-icons/fa6";
 import Button from '../../utilities/Button';
-import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (

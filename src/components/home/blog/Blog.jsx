@@ -3,7 +3,6 @@ import React from 'react'
 import Heading from '../../utilities/Heading'
 import Image from '../../utilities/Image'
 import Span from '../../utilities/Span'
-import HeadingSix from '../../utilities/HeadingSix'
 import Paragraph from '../../utilities/Paragraph'
 import HyperLink from '../../utilities/HyperLink'
 

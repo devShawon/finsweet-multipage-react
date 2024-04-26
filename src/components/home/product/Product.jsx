@@ -1,6 +1,4 @@
 import React from 'react'
-import HeadingSix from '../../utilities/HeadingSix'
-import HeadingTwo from '../../utilities/HeadingTwo'
 import CardClient from '../../cards/CardClient'
 
 import { FaUsers } from "react-icons/fa6";
