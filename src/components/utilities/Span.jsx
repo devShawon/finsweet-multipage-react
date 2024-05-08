@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Span = ({className, text}) => {
+const Span = ({children,className, text}) => {
   return (
     <>
-        <span className={className}>{text}</span>
+        <span className={className}>
+          {text}
+          {children}
+          </span>
     </>
   )
 }

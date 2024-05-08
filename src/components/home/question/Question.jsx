@@ -1,15 +1,9 @@
 import React from 'react'
 import HyperLink from '../../utilities/HyperLink'
-import Span from '../../utilities/Span'
-
-import { Accordion } from "keep-react";
-
-
 import Heading from '../../utilities/Heading'
+import Accordian from '../../utilities/Accordian'
 
 const Question = () => {
-
-    let peraText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 
   return (
     <>
@@ -24,7 +18,34 @@ const Question = () => {
                         />
                         <HyperLink href='#' className='text-lg text-royal-blue font-poppins font-medium leading-8' text='Contact us for more info' />
                     </div>
-                    <Accordion flush={true}>
+                    <div className='flex flex-col w-full'>
+                        <Accordian 
+                            number= '01'
+                            headingtxt= 'How much time does it take?'
+                            peratxt= 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        />
+                        <Accordian 
+                            number= '02'
+                            headingtxt= 'What is your class naming convention?'
+                            peratxt= 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        />
+                        <Accordian
+                            number= '03'
+                            headingtxt= 'How do you communicate?'
+                            peratxt= 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        />
+                        <Accordian 
+                            number= '04'
+                            headingtxt= 'I have a bigger project. Can you handle it?'
+                            peratxt= 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        />
+                        <Accordian 
+                            number= '05'
+                            headingtxt= 'What is your class naming convention?'
+                            peratxt= 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        />
+                    </div>
+                    {/* <Accordion flush={true}>
                         <Accordion.Panel>
                             <Accordion.Container>
                                 <div className='flex items-center gap-x-14'>
@@ -105,7 +126,7 @@ const Question = () => {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </Accordion.Content>
                         </Accordion.Panel>
-                    </Accordion>
+                    </Accordion> */}
                     {/* <div className='flex flex-col gap-y-16'>
                         <div className='flex items-start justify-between mb-16px'>
                             <div className='flex gap-x-14'>

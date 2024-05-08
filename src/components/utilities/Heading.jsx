@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Heading = ({Heading, className, text}) => {
+const Heading = ({children,Heading, className, text}) => {
   return (
-    <Heading className={className}>{text}</Heading>
+    <Heading className={className}>
+      {text}
+      {children}
+    </Heading>
   )
 }
 
