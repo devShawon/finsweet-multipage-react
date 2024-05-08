@@ -4,11 +4,11 @@ import { Accordion } from "keep-react";
 import Span from './Span';
 import Heading from './Heading';
 
-const Accordian = ({headingtxt, peratxt, number}) => {
+const Accordian = ({headingtxt, peratxt, number, panel}) => {
 
   return (
     <Accordion flush={true}>
-        <Accordion.Panel className='py-3'>
+        <Accordion.Panel>
             <Accordion.Container>
                 <div className='flex items-center gap-x-14'>
                     <Span className='number'>{number}</Span>

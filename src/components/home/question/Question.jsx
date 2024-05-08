@@ -2,6 +2,8 @@ import React from 'react'
 import HyperLink from '../../utilities/HyperLink'
 import Heading from '../../utilities/Heading'
 import Accordian from '../../utilities/Accordian'
+import { Accordion } from 'keep-react'
+import Span from '../../utilities/Span'
 
 const Question = () => {
 
@@ -18,7 +20,7 @@ const Question = () => {
                         />
                         <HyperLink href='#' className='text-lg text-royal-blue font-poppins font-medium leading-8' text='Contact us for more info' />
                     </div>
-                    <div className='flex flex-col w-full'>
+                    {/* <div className='flex flex-col w-full'>
                         <Accordian 
                             number= '01'
                             headingtxt= 'How much time does it take?'
@@ -44,89 +46,91 @@ const Question = () => {
                             headingtxt= 'What is your class naming convention?'
                             peratxt= 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                         />
-                    </div>
-                    {/* <Accordion flush={true}>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                                <div className='flex items-center gap-x-14'>
-                                    <Span className= 'number' text= '01' />
-                                    <Heading 
-                                        Heading={'h3'}
-                                        className= 'cardHeading text-dark-blue font-medium'
-                                        text= 'How much time does it take?'
-                                    />
-                                </div>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                                <div className='flex items-center gap-x-14'>
-                                        <Span className= 'number' text= '02' />
+                    </div> */}
+                    <div className='w-full'>
+                        <Accordion flush={true}>
+                            <Accordion.Panel >
+                                <Accordion.Container>
+                                    <div className='flex items-center gap-x-14'>
+                                        <Span className= 'number' text= '01' />
+                                        <Heading 
+                                            Heading={'h3'}
+                                            className= 'cardHeading text-dark-blue font-medium'
+                                            text= 'How much time does it take?'
+                                        />
+                                    </div>
+                                <Accordion.Icon />
+                                </Accordion.Container>
+                                <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </Accordion.Content>
+                            </Accordion.Panel>
+                            <Accordion.Panel>
+                                <Accordion.Container>
+                                    <div className='flex items-center gap-x-14'>
+                                            <Span className= 'number' text= '02' />
+                                            <Heading 
+                                                Heading={'h3'}
+                                                className= 'cardHeading text-dark-blue font-medium'
+                                                text= 'What is your class naming convention?'
+                                            />
+                                        </div>
+                                <Accordion.Icon />
+                                </Accordion.Container>
+                                <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </Accordion.Content>
+                            </Accordion.Panel>
+                            <Accordion.Panel>
+                                <Accordion.Container>
+                                    <div className='flex items-center gap-x-14'>
+                                        <Span className= 'number' text= '03' />
+                                        <Heading 
+                                            Heading={'h3'}
+                                            className= 'cardHeading text-dark-blue font-medium'
+                                            text= 'How do you communicate?'
+                                        />
+                                    </div>
+                                <Accordion.Icon />
+                                </Accordion.Container>
+                                <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </Accordion.Content>
+                            </Accordion.Panel>
+                            <Accordion.Panel>
+                                <Accordion.Container>
+                                    <div className='flex items-center gap-x-14'>
+                                        <Span className= 'number' text= '04' />
+                                        <Heading 
+                                            Heading={'h3'}
+                                            className= 'cardHeading text-dark-blue font-medium'
+                                            text= 'I have a bigger project. Can you handle it?'
+                                        />
+                                    </div>
+                                <Accordion.Icon />
+                                </Accordion.Container>
+                                <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </Accordion.Content>
+                            </Accordion.Panel>
+                            <Accordion.Panel>
+                                <Accordion.Container>
+                                    <div className='flex items-center gap-x-14'>
+                                        <Span className= 'number' text= '05' />
                                         <Heading 
                                             Heading={'h3'}
                                             className= 'cardHeading text-dark-blue font-medium'
                                             text= 'What is your class naming convention?'
                                         />
                                     </div>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                                <div className='flex items-center gap-x-14'>
-                                    <Span className= 'number' text= '03' />
-                                    <Heading 
-                                        Heading={'h3'}
-                                        className= 'cardHeading text-dark-blue font-medium'
-                                        text= 'How do you communicate?'
-                                    />
-                                </div>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                                <div className='flex items-center gap-x-14'>
-                                    <Span className= 'number' text= '04' />
-                                    <Heading 
-                                        Heading={'h3'}
-                                        className= 'cardHeading text-dark-blue font-medium'
-                                        text= 'I have a bigger project. Can you handle it?'
-                                    />
-                                </div>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                        <Accordion.Panel>
-                            <Accordion.Container>
-                                <div className='flex items-center gap-x-14'>
-                                    <Span className= 'number' text= '05' />
-                                    <Heading 
-                                        Heading={'h3'}
-                                        className= 'cardHeading text-dark-blue font-medium'
-                                        text= 'What is your class naming convention?'
-                                    />
-                                </div>
-                            <Accordion.Icon />
-                            </Accordion.Container>
-                            <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </Accordion.Content>
-                        </Accordion.Panel>
-                    </Accordion> */}
+                                <Accordion.Icon />
+                                </Accordion.Container>
+                                <Accordion.Content className='paragraph w-600px text-dark-blue ml-20'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </Accordion.Content>
+                            </Accordion.Panel>
+                        </Accordion>
+                    </div>
                     {/* <div className='flex flex-col gap-y-16'>
                         <div className='flex items-start justify-between mb-16px'>
                             <div className='flex gap-x-14'>
